@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    text-align: center;
+    font-family: Merriweather;
+    color: white;
+    padding: 10px;
+}
+
+#image {
+    margin-right: 20px;
+}
+
+
+nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    font-family: Merriweather;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Merriweather;
+    align-items: center;
+}
+
+footer {
+    background-color: navy;
+    text-align: center;
+    color: white;
+}
+
+.card {
+    border: 5px solid black;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.card h3 {
+    background-color: navy;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
