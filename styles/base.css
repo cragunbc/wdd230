@@ -70,3 +70,7 @@ h2 {
     text-align: center;
     text-decoration: underline;
 }
+
+.numbered-list {
+    padding: 0;
+}
