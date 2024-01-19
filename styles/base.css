@@ -18,8 +18,9 @@ header {
 
 
 nav {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: black;
 }
 
@@ -52,6 +53,7 @@ footer {
     padding: 5px;
     text-decoration: none;
     text-align: center;
+    margin: 20px;
 }
 
 .card h3 {
