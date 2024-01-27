@@ -1,6 +1,10 @@
+body {
+    font-family: Merriweather;
+}
+
 header {
     display: flex;
-    background-color: lightslategray;
+    background-color: rgb(43, 42, 42);
     color: white;
     margin: 0;
     justify-content: center;
@@ -14,3 +18,14 @@ main {
 .card {
     grid-column: 2/3;
 }
+/* 
+#large {
+    grid-column: 2/3;
+}
+
+#mobile {
+    display: inline;
+    grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
+} */
