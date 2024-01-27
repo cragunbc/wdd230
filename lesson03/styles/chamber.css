@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    background-color: lightslategray;
+    color: white;
+    margin: 0;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    grid-column: 2/3;
+}
