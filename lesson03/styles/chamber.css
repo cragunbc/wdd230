@@ -17,6 +17,7 @@ main {
 
 .card {
     grid-column: 2/3;
+    text-decoration: none;
 }
 /* 
 #large {
