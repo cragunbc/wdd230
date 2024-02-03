@@ -19,14 +19,15 @@ header {
     font-size: 15px;
 }
 
-#photo {
-    height: 100%;
-}
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 25px;
+}
+
+#photo {
+    height: 80%;
+    grid-column: 2/3;
 }
 
 #events {
