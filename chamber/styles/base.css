@@ -47,8 +47,8 @@ main {
     list-style: none;
     max-width: 50%;
     justify-content: space-between;
-    /* position: absolute; */
     top: 10%;
+    margin-left: 130px;
 }
 
 .navigation a {
@@ -56,7 +56,11 @@ main {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
+    align-items: center;
+    color: black;
+    background-color: gray;
+    padding: 20px;
 }
 
 .navigation a:hover {
@@ -65,12 +69,7 @@ main {
 }
 
 .open a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    background-color: gray;
-    padding: 20px;
+    display: block;
 }
 
 .hero-img {
@@ -95,7 +94,7 @@ main {
     padding: 15px;
     border: solid black 2px;
     margin-top: 10px;
-
+    background-color: lightgray;
 }
 
 footer {
