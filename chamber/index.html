@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon-chamber.ico">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <meta property="og:title" content="WDD 230 - Web Frontend Development">
@@ -20,7 +21,7 @@
     <header>
         <h1>Syracuse Chamber of Commerce</h1>
         <button id="menu"></button>
-        <nav id="navigation">
+        <nav class="navigation">
             <a href="#">Home</a>
             <a href="#">Discover</a>
             <a href="#">Directory</a>
@@ -28,26 +29,27 @@
         </nav>
     </header>
     <div class="hero-img">
+        <button class="join-button">Join the Chamber</button>
         <img id="photo" alt="City Hall" src="images/hero-image.jpeg">
     </div>
     <main>
-        <section id="events">
+        <section class="card" id="events">
             <h2>Events</h2>
             <p>These are the local events that are going on</p>
         </section>
-        <section id="weather">
+        <section class="card" id="weather">
             <h2>Weather</h2>
             <p>Local weather</p>
         </section>
-        <section class="card1">
+        <section class="card" id="company1">
             <h2>Company 1</h2>
             <p>Highlight of company 1</p>
         </section>
-        <section class="card2">
+        <section class="card" id="company2">
             <h2>Company 2</h2>
             <p>Highlight of company 2</p>
         </section>
-        <section class="card3">
+        <section class="card" id="company3">
             <h2>Company 3</h2>
             <p>Highlight of company 3</p>
         </section>
@@ -57,5 +59,6 @@
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getdateschamber.js"></script>
+    <script src="scripts/responsive-menu-chamber.js"></script>
 </body>
 </html>
