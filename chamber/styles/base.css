@@ -81,8 +81,8 @@ main {
 }
 
 #photo {
-    height: 300px;
-    max-width: 90%;
+    height: 100%;
+    max-width: 100%;
 }
 
 .join-button {
@@ -107,4 +107,12 @@ footer {
 footer p {
     padding: 10px;
     font-size: 20px;
+}
+
+#mode {
+    font-size: 40px;
+    position: absolute;
+    cursor: pointer;
+    left: 1rem;
+    top: 1rem;
 }

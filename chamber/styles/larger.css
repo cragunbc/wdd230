@@ -24,7 +24,7 @@ header {
     flex-direction: row;
     background-color: blue;
     text-align: center;
-    width: 50%;
+    width: 40%;
     height: 20%;
     position: static;
 }
@@ -47,14 +47,13 @@ header {
 .hero-img {
     display: flex;
     justify-content: center;
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     position: relative;
 }
 
 #photo {
-    height: 850px;
-    max-width: 90%;
+    height: 100%;
 }
 
 .join-button {
@@ -119,6 +118,11 @@ footer {
 footer p {
     padding: 10px;
     font-size: 20px;
+}
+
+#mode {
+    font-size: 40px;
+    position: static;
 }
 
 }
