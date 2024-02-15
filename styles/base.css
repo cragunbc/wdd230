@@ -77,6 +77,29 @@ header {
     display: block;
 }
 
+.hero {
+    position: relative;
+    margin: 10px auto;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.herolabel {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
