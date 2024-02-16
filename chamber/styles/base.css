@@ -81,13 +81,6 @@ main {
     position: relative;
 }
 
-.herolabel p {
-    margin: 0;
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: Merriweather;
-}
-
 #photo {
     height: 100%;
     max-width: 100%;

@@ -5,6 +5,12 @@
       .navigation a {
          display: flex;
       }
+      .herolabel {
+         padding: 2rem;
+      }
+      .herolabel p {
+         font-size: 2rem;
+      }
       #center {
          display: grid;
          grid-template-columns: 3fr 1fr;
