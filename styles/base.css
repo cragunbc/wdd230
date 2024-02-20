@@ -10,7 +10,10 @@ header {
 }
 
 #image {
-    margin-right: 20px;
+    max-width: 90px;
+    width: 100%;
+    height: auto;
+    padding: 0 25px;
 }
 
 
