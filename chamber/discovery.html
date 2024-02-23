@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon-chamber.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://syracuseut.gov/ImageRepository/Document?documentID=29">
+    <meta property="og:url" content="https://cragunbc.github.io/wdd230/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brantley Cragun - WDD 230 - Web Frontend Development - Chamber of Commerce Discover Page</title>
+    <meta name="author" content="Brantley Cragun">
+    <meta
+        name="description"
+        content="WDD 230 - Web Frontend Development - Chamber of Commerce discover page"></head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.webp" alt="Syracuse City logo">
+        <h1>Syracuse Chamber of Commerce</h1>
+        <div id="mode">🕶️</div>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="discovery.html">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+        </nav>
+    </header>
+    <main id="discover-page-main">
+        <section class="discover-card">
+            <h3>Viewing Information:</h3>
+            <p></p>
+        </section>
+        <section class="discover-card">
+            <h3>Where is Syracuse located?</h3><br>
+            <p>Syracuse, Utah, is located in the northern part of the state, just west of the Great Salt Lake. It is part of Davis County and is situated between the cities of Clearfield and Layton.</p>
+        </section>
+        <section class="discover-card">
+            <h3>Statistical Information:</h3><br>
+            <p><strong>Population:</strong> According to the U.S. Census Bureau, the estimated population of Syracuse, Utah, as of 2020 is around 31,000 people.</p><br>
+            <p><strong>Area:</strong> Syracuse has a total area of approximately 10.4 square miles (27 square kilometers), according to the U.S. Census Bureau.</p><br>
+            <p><strong>Median Household Income:</strong> The median household income in Syracuse is around $93,000, based on 2020 data from the U.S. Census Bureau.</p><br>
+            <p><strong>Median Home Value:</strong> The median home value in Syracuse is approximately $400,000, based on 2020 data from the U.S. Census Bureau.</p>
+        </section>
+        <section class="discover-card">
+            <h3>What attractions does Syracuse offer?</h3><br>
+            <p><strong>Antelope Island State Park:</strong> Located nearby, this park offers stunning views of the Great Salt Lake, as well as opportunities for hiking, biking, wildlife viewing, and swimming.</p><br>
+            <p><strong>Syracuse City Arts Council:</strong> This organization hosts various cultural events, including art exhibitions, concerts, and theatrical performances.</p><br>
+            <p><strong>Syracuse Museum and Cultural Center:</strong> This museum showcases the history and culture of Syracuse and the surrounding area, with exhibits on local history, art, and more.</p><br>
+            <p><strong>Parks and Outdoor Recreation:</strong> Syracuse boasts several parks and recreational areas, offering opportunities for picnicking, sports, and outdoor activities.</p>
+        </section> 
+        <picture class="discover-picture">
+            <img src="images/antelope island.jpg" alt="Antelope Island" width="600" height="400">
+        </picture>
+        <picture class="discover-picture">
+            <img src="images/fremont-park.jpg" alt="Fremont Park" width="600" height="400">
+        </picture>
+        <picture class="discover-picture">
+            <img src="images/jensen-park.jpg" alt="Jensen Park" width="600" height="400">
+        </picture>
+        <picture class="discover-picture">
+            <img src="images/rec-center.jpg" alt="Syracuse Rec Center" width="600" height="400">
+        </picture>
+        <picture class="discover-picture">
+            <img src="images/syracuse-museum.jpg" alt="The Syracuse Museum" width="600" height="400">
+        </picture>
+        <picture class="discover-picture">
+            <img src="images/west-davis-corridor.jpg" alt="West Davis Corridor" width="600" height="400">
+        </picture>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Phone: 123-456-7890 | Address: 1234 One Dr. Anytown, USA<br>Brantley Cragun<br>WDD 230 Chamber of Commerce</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdateschamber.js"></script>
+    <script src="scripts/responsive-menu-chamber.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+</body>
+</html>

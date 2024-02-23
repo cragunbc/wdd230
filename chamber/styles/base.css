@@ -133,3 +133,21 @@ footer p {
     right: 5rem;
     top: 1rem;
 }
+
+#discovery-page-main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.discover-card {
+    padding: 30px;
+    border: solid black 5px;
+    margin: 20px;
+}
+
+.discover-picture {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}

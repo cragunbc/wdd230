@@ -126,4 +126,16 @@ footer p {
     position: static; */
 }
 
+#discover-page-main {
+    grid-template-columns: 1fr 1fr;
+}
+
+.discover-card {
+    grid-column: 1/2;
+}
+
+.discover-picture {
+    grid-column: 2/3;
+}
+
 }
