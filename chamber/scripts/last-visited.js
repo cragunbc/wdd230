@@ -1,8 +1,8 @@
 const todaysDate = new Date();
 const visitedInfo = document.querySelector("#visited");
-let visits = Number(window.localStorage.getItem("lastVisited-date")) || 0;
+let visits = Number(window.localStorage.getItem("lastVisited-ls")) || 0;
 visits++;
-localStorage.setItem("lastVisited-date", visits);
+localStorage.setItem("lastVisited-ls", visits);
 
 let storedDate = Number(window.localStorage.getItem("lastVisited-date"));
 const date1 = new Date("2024-02-23");
