@@ -1,18 +1,27 @@
-const msToDays = 3600000;
 const todaysDate = new Date();
-const lastVisited = document.querySelector("#visited");
+const visitedInfo = document.querySelector("#visited");
 let visits = Number(window.localStorage.getItem("lastVisited-ls")) || 0;
-const today = Date.now();
-
-if (today / today < 2) {
-    lastVisited.textContent = "Back so soon! Awesome!";
-} else if (visits >= 2 ){
-    lastVisited.textContent = "You came back 5 days ago";
-} else {
-    lastVisited.textContent = "This is your first visit";
-}
-
-lastVisited.textContent = today;
-
 visits++;
 localStorage.setItem("lastVisited-ls", visits);
+
+let storedDate = Number(window.localStorage.getItem("lastVisited-date"));
+const date1 = new Date("2024-02-23");
+const date2 = new Date("2024-02-24");
+
+
+
+if (!storedDate) {
+   localStorage.setItem("lastVisited-date", date1)
+   storedDate = Number(window.localStorage.getItem("lastVisited-date"));
+} else {
+    const dateDiff = date2 - storedDate;
+    const dateDiffInDays = dateDiff / (1000 * 60 * 60 * 24);
+    console.log(dateDiffInDays);
+    if (dateDiffInDays !== 0 && dateDiffInDays < 2) {
+        visitedInfo.textContent = "Back so soon! Awesome!";
+    } else if (dateDiffInDays > 1){
+        visitedInfo.textContent = `You came back ${dateDiffInDays} days ago`;
+    } else if (dateDiffInDays === 0 ){
+        visitedInfo.textContent = "This is your first visit";
+    }
+}
