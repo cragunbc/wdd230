@@ -147,7 +147,7 @@ footer p {
 }
 
 .discover-picture {
-    display: inline-block;
+    display: block;
     /* width: 100%;
     height: auto; */
     text-align: center;
