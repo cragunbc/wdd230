@@ -141,13 +141,30 @@ footer p {
 
 .discover-card {
     padding: 30px;
-    border: solid black 5px;
+    border: solid black 2px;
     margin: 20px;
+    background-color: lightgrey;
 }
 
 .discover-picture {
-    display: block;
+    display: inline-block;
+    /* width: 100%;
+    height: auto; */
+    text-align: center;
+    margin: 20px 20px 0 20px;
+
+}
+
+.discover-picture img {
     width: 100%;
     height: auto;
+}
+
+.discover-picture:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+.picture-text {
+    display: block;
     text-align: center;
 }

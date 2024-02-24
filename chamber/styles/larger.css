@@ -132,9 +132,15 @@ footer p {
 
 .discover-card {
     grid-column: 1/2;
+    box-shadow: 10px 10px 10px 0 lightgray;
+    border: solid black 5px;
 }
 
 .discover-picture {
+    grid-column: 2/3;
+}
+
+.picture-text {
     grid-column: 2/3;
 }
 
