@@ -122,8 +122,6 @@ footer p {
     top: 0.5rem;
     right: 1rem;
     position: absolute;
-    /* font-size: 40px;
-    position: static; */
 }
 
 #discover-page-main {
@@ -131,17 +129,8 @@ footer p {
 }
 
 .discover-card {
-    /* grid-column: 1/2; */
     box-shadow: 10px 10px 10px 0 lightgray;
     border: solid black 5px;
-}
-
-.discover-picture {
-    /* grid-column: 2/3; */
-}
-
-.picture-text {
-    /* grid-column: 2/3; */
 }
 
 #column1 {
@@ -153,30 +142,5 @@ footer p {
     grid-template-columns: 1fr;
     grid-column: 2/3;
 }
-
-/* #picture1 {
-    grid-row: 1/2;
-}
-
-#picture2 {
-    grid-row: 2/3;
-}
-
-#picture3 {
-    grid-row: 3/4;
-}
-
-#picture4 {
-    grid-row: 4/5;
-}
-
-#picture5 {
-    grid-row: 5/6;
-}
-
-#picture6 {
-    grid-row: 6/7;
-} */
-
 
 }
