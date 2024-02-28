@@ -1,0 +1,42 @@
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th {
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+#title {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.colid {
+    background-color: gray;
+}
+
+#blank {
+    background-color: black;
+}
