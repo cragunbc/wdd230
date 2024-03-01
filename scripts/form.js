@@ -8,6 +8,7 @@ function checkSame() {
     if (pw1.value !== pw2.value) {
         formMessage.textContent = "Passwords DO NOT MATCH";
         formMessage.style.visibility = "show";
+        formMessage.style.color = "red";
         pw2.style.backgroundColor = "red";
         pw2.value = "";
         pw2.focus();

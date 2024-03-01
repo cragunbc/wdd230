@@ -1,7 +1,7 @@
 :root {
     padding: 0 2%;
     text-align: left;
-
+    background-color: white;
 }
 
 form label.top {
@@ -31,7 +31,11 @@ form label.top input {
     margin: 1rem;
 }
 
-#rangevalues {
+input[type="range"] {
     height: 20px;
     width: 200px;
+}
+
+#message {
+    margin: 20px;
 }
