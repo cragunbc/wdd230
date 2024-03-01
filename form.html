@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://syracuseut.gov/ImageRepository/Document?documentID=29">
+    <meta property="og:url" content="https://cragunbc.github.io/wdd230/">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brantley Cragun - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Brantley Cragun">
+    <meta
+        name="description"
+        content="WDD 230 - Web Frontend Development
+        Brantley Cragun
+        Course Home Page Portal">
+</head>
+<body>
+    <header>
+        <picture>
+            <img id="image" alt="Profile picture of myself" src="images/myphoto.webp" width="75" height="125">
+        </picture>
+        <h1>Brantley Cragun</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/26?lang=eng" target="_blank">Scripture</a>
+    </nav>
+    <main>
+        <div id="message"></div>
+        <form method="get" action="record.html">
+            <fieldset>
+            <label class="top">Username <input id="uName" type="text" name="username" required></label>
+            <label class="top">Password <input id="pwd1" type="password" name="password" pattern="[A-Za-z0-9]{8,}" required></label>
+            <label class="top">Repeat Password <input id="pwd2" type="password" name="repeatPassword" pattern="[A-Za-Z0-9]{8,}" required></label>
+            <label class="top">Email <input id="email" type="email" name="email" title="A valid byui.edu email address" pattern="[a-zA-Z0-9_.]+@byui.edu" required></label>
+            <div id="rangevalue">0</div>
+            <label class="top">Page Rating <input id="pageRat" type="range" name="pageRating" min="0" max="10" value="0" step="1" list="rangevalues"></label>
+            <datalist id="rangevalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <input type="submit" value="Create Account" class="submitBtn"> 
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span><br>Brantley Cragun<br>USA</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/responsive-menu.js"></script>
+    <script src="scripts/page-visits.js"></script>
+    <script src="scripts/form.js"></script>
+    </body>
+</html>
