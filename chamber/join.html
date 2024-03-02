@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon-chamber.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://syracuseut.gov/ImageRepository/Document?documentID=29">
+    <meta property="og:url" content="https://cragunbc.github.io/wdd230/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brantley Cragun - WDD 230 - Web Frontend Development - Chamber of Commerce</title>
+    <meta name="author" content="Brantley Cragun">
+    <meta
+        name="description"
+        content="WDD 230 - Web Frontend Development - Chamber of Commerce home page"></head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.webp" alt="Syracuse City logo">
+        <h1>Syracuse Chamber of Commerce</h1>
+        <div id="mode">🕶️</div>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+        </nav>
+    </header>
+    <main id="join">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                    <label class="top">First Name <input id="firstName" type="text" name="fname" required></label>
+                    <label class="top">Last Name <input id="lastName" type="text" name="lname" required></label>
+                    <label class="top">Email Address <input id="email" type="email" name="contact" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone Number <input id="phone" type="tel" name="phoneNumber" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Organization Information</legend>
+                    <label class="middle">Title or Position <input id="title" type="text" name="position" pattern="[A-Za-z\- ]{7,}" required></label>
+                    <label class="middle">Business/Organization's Name <input id="organization" type="text" name="business" required></label>
+                    <label class="middle">Organization Description<textarea class="top" id="description" name="businessDesc" rows="5" cols="33"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Status</legend>
+                    <!-- <div class="divBottom">Membership Level</div> -->
+                    <label class="bottom2"><input id="membership1" type="radio" name="memberStatus" value="np"> NP Membership</label><br>
+                    <label class="bottom"><input id="membership2" type="radio" name="memberStatus" value="bronze"> Bronze Membership</label><br>
+                    <label class="bottom"><input id="membership3" type="radio" name="memberStatus" value="silver"> Silver Membership</label><br>
+                    <label class="bottom"><input id="membership4" type="radio" name="memberStatus" value="gold"> Gold Membership</label>
+            </fieldset>
+                <input id="date" name="todaysDate" type="hidden">
+            <input type="submit" value="Create Account" class="submitBtn">
+        </form>
+        <section id="member">
+        <h1 id="membershipDets">Membership Details</h1>
+        <section id="npMembership" class="membership">
+            <h3>NP Membership</h3>
+            <ul>
+                <li>Price: $0</li>
+                <li>Benefits:
+                    <ul>
+                        <li class="tab">Access to basic features</li>
+                        <li class="tab">Limited content and services</li>
+                        <li class="tab">Monthly newsletter</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="bronzeMembership" class="membership">
+            <h3>Bronze Membership</h3>
+            <ul>
+                <li>Price: $20/month</li>
+                <li>Benefits:
+                    <ul>
+                        <li class="tab">All NP benefits</li>
+                        <li class="tab">Access to exclusive content</li>
+                        <li class="tab">Discounts on merchandise</li>
+                        <li class="tab">Invitation to one special event per year</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="silverMembership" class="membership">
+            <h3>Silver Membership</h3>
+            <ul>
+                <li>Price: $30/month</li>
+                <li>Benefits:
+                    <ul>
+                        <li class="tab">All Bronze benefits</li>
+                        <li class="tab">Priority customer support</li>
+                        <li class="tab">Early access to new features</li>
+                        <li class="tab">Discounts on advertising opportunities</li>
+                        <li class="tab">Invitation to two special events per year</li>
+                        <li class="tab">Access to one training session per quarter</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="goldMembership" class="membership">
+            <h3>Gold Membership</h3>
+            <ul>
+                <li>Price: $50/month</li>
+                <li>Benefits:
+                    <ul>
+                        <li class="tab">All Silver benefits</li>
+                        <li class="tab">Personalized consultations</li>
+                        <li class="tab">VIP access to events</li>
+                        <li class="tab">Free merchandise</li>
+                        <li class="tab">Discounts on event sponsorships</li>
+                        <li class="tab">Invitation to four special events per year</li>
+                        <li class="tab">Access to one training session per month</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Phone: 123-456-7890 | Address: 1234 One Dr. Anytown, USA<br>Brantley Cragun<br>WDD 230 Chamber of Commerce</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdateschamber.js"></script>
+    <script src="scripts/responsive-menu-chamber.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

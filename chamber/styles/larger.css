@@ -143,4 +143,19 @@ footer p {
     grid-column: 2/3;
 }
 
+/* Form CSS */
+
+#join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#membershipDets {
+    text-align: center;
+}
+
+.membership {
+    grid-column: 2/3;
+}
+
 }
