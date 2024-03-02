@@ -231,3 +231,9 @@ form label.top input, form label.middle input {
 #member {
     padding: 50px;
 }
+
+/* Thanks Form */
+
+#thanks {
+    text-align: center;
+}
