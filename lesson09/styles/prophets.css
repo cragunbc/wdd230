@@ -1,0 +1,39 @@
+body {
+    font-family: Merriweather;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+    margin: 3rem;
+    /* background-color: lightgray; */
+}
+
+#cards h2, #cards p {
+    text-align: center;
+}
+
+#cards img {
+    width: 75%;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+    margin: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 1rem;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
