@@ -1,0 +1,35 @@
+{
+    "wardInformation": {
+        "familyName": "Johnson",
+        "movedIn": "2023-04-15",
+        "numberOfMembers": 5,
+        "visitedByBishop": false,
+        "familyMembers": [
+            {
+                "name": "Jed Johnson",
+                "gender": "Male",
+                "birthdate": "1980-02-20"
+            },
+            {
+                "name": "Crystal Johnson",
+                "gender": "Female",
+                "birthdate": "1983-04-15"
+            },
+            {
+                "name": "John Johnson",
+                "gender": "Male",
+                "birthdate": "2004-06-10"
+            },
+            {
+                "name": "Kylee Johnson",
+                "gender": "Female",
+                "birthdate": "2007-03-05"
+            },
+            {
+                "name": "Kyle Johnson",
+                "gender": "Male",
+                "birthdate": "2010-07-21"
+            }
+        ]
+    }
+}
