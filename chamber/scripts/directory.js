@@ -27,6 +27,7 @@ const displayMembers = (companies) => {
         address.textContent = company.address;
         phone.textContent = company.phone;
         websiteurl.setAttribute("href", company.website);
+        websiteurl.textContent = `${company.website}`;
         membership.textContent = `Membership Level: ${company.membership_level}`;
         add_info.textContent = `Additional Info: ${company.additional_info}`;
 

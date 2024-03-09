@@ -252,6 +252,12 @@ form label.top input, form label.middle input {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
+.directory-menu {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
 section {
     align-items: center;
     /* border: 2px solid black; */
@@ -267,6 +273,6 @@ section img {
     margin-bottom: 2rem;
 }
 
-section p, section a {
-    margin-bottom: 10px;
+section p, section a{
+    margin: 10px;
 }
