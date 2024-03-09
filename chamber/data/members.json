@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Walmart",
+            "address": "2228 W 1700 S, Syracuse, UT 84075",
+            "phone": "+1 (801) 775-9688",
+            "website": "https://www.walmart.com/",
+            "image": "images/logos/webp/walmart.webp",
+            "membership_level": "Bronze",
+            "additional_info": "Local shopping center where most citizens in the area do their grocery shopping."
+        },
+        {
+            "name": "Starbucks",
+            "address": "1043 W Antelope Dr, Syracuse, UT 84075",
+            "phone": "+1 (385) 276-1312",
+            "website": "https://www.starbucks.com/",
+            "image": "images/logos/webp/starbucks.webp",
+            "membership_level": "Bronze",
+            "additional_info": "Famous US Coffee chain that is new to the Syracuse area."
+        },
+        {
+            "name": "Jiffy Lube",
+            "address": "1129 W 1700 S, Syracuse, UT 84075",
+            "phone": "+1 (801) 825-9300",
+            "website": "https://www.jiffylube.com/",
+            "image": "images/logos/webp/jiffylube.webp",
+            "membership_level": "NP",
+            "additional_info": "One of the car maintenance shops located in Syracuse that offers oil changes, battery maintenance, and brake inspection."
+        },
+        {
+            "name": "Costco",
+            "address": "3656 Wall Ave, Ogden, UT 84405",
+            "phone": "+1 (801) 317-3953",
+            "website": "https://costco.com/",
+            "image": "images/logos/webp/costco.webp",
+            "membership_level": "Gold",
+            "additional_info": "Famous Nationwide membership only shopping that is always busy."
+        },
+        {
+            "name": "7-11",
+            "address": "976 W 1700 S, Clearfield, UT 84015",
+            "phone": "+1 (801) 776-8671",
+            "website": "https://www.7-eleven.com/",
+            "image": "images/logos/webp/711.webp",
+            "membership_level": "NP",
+            "additional_info": "Local gas station in the Syracuse area that offers great prices for you to fill up your car."
+        },
+        {
+            "name": "Maverik",
+            "address": "1991 W 1700 S, Syracuse, UT 84075",
+            "phone": "+1 (801) 776-5870",
+            "website": "https://www.maverik.com/",
+            "image": "images/logos/webp/maverik.webp",
+            "membership_level": "Silver",
+            "additional_info": "One of the gas stations that is newly remodeled to offer better services."
+        },
+        {
+            "name": "Sports Clips",
+            "address": "2058 W 1700 S #102, Syracuse, UT 84075",
+            "phone": "+1 (801) 773-7114",
+            "website": "https://www.sportclips.com/",
+            "image": "images/logos/webp/sportsclips.webp",
+            "membership_level": "Silver",
+            "additional_info": "New hair cut provider in the area that offers great services for those that decide to go."
+        }
+    ]
+}
