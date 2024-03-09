@@ -1,5 +1,8 @@
 const url = "https://cragunbc.github.io/wdd230/chamber/data/members.json"
 const cards = document.querySelector("#members");
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
+const display = document.querySelector(".grid");
 
 async function getMemberData() {
     const response = await fetch(url);
@@ -40,6 +43,18 @@ const displayMembers = (companies) => {
         card.appendChild(add_info);
 
         cards.appendChild(card);
+    });
+
+    gridButton.addEventListener("click", () => {
+        display.classList.add("grid");
+        display.classList.remove("list");
+        // console.log("Grid Button");
+    });
+
+    listButton.addEventListener("click", () => {
+        display.classList.add("list");
+        display.classList.remove("grid");
+        // console.log("List Button");
     });
 
 }

@@ -160,9 +160,25 @@ footer p {
 
 /* Directory CSS */
 
-#members {
+/* #members {
+    display: grid;
+} */
+
+.grid #members {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* .list section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 3fr;
+    padding: .25rem;
 }
 
 }

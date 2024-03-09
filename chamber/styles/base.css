@@ -228,6 +228,7 @@ form label.top input, form label.middle input {
 
 #membershipDets {
     text-align: center;
+    background-color: white;
 }
 
 .tab {
@@ -247,6 +248,8 @@ form label.top input, form label.middle input {
 
 /* Directory CSS */
 
+
+
 #directory-main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -254,13 +257,19 @@ form label.top input, form label.middle input {
 
 .directory-menu {
     display: block;
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     text-align: center;
     font-size: 30px;
+    padding: 2rem;
+    /* font-family: Merriweather; */
 }
 
 .directory-menu button {
     padding: 1rem;
+}
+
+#members {
+    font-family: Merriweather;
 }
 
 section {
@@ -270,6 +279,8 @@ section {
     margin: .5rem;
     padding: 2rem;
     text-align: center;
+    background-color: lightgray;
+    font-family: Merriweather;
 }
 
 section img {
@@ -281,3 +292,28 @@ section img {
 section p, section a{
     margin: 10px;
 }
+
+/* Button CSS */
+
+.list section {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.grid section.list {
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
+/* .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+} */
