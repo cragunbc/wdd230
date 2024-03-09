@@ -228,7 +228,7 @@ form label.top input, form label.middle input {
 
 #membershipDets {
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .tab {
@@ -237,6 +237,7 @@ form label.top input, form label.middle input {
 
 #member {
     padding: 50px;
+    background-color: white;
 }
 
 /* Thanks Form */
