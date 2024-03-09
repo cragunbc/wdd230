@@ -244,3 +244,29 @@ form label.top input, form label.middle input {
     grid-template-columns: 1fr;
     text-align: center;
 }
+
+/* Directory CSS */
+
+#directory-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    align-items: center;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 70px lightgray;
+    margin: .5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+section img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+section p, section a {
+    margin-bottom: 10px;
+}

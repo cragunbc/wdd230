@@ -16,7 +16,7 @@ const displayMembers = (companies) => {
         let name = document.createElement("p");
         let address = document.createElement("p");
         let phone = document.createElement("p");
-        let websiterul = document.createElement("p");
+        let websiteurl = document.createElement("a");
         let membership = document.createElement("p");
         let add_info = document.createElement("p");
 
@@ -26,7 +26,7 @@ const displayMembers = (companies) => {
         image.setAttribute("loading", "lazy");
         address.textContent = company.address;
         phone.textContent = company.phone;
-        websiterul.textContent = company.website;
+        websiteurl.setAttribute("href", company.website);
         membership.textContent = `Membership Level: ${company.membership_level}`;
         add_info.textContent = `Additional Info: ${company.additional_info}`;
 
@@ -34,7 +34,7 @@ const displayMembers = (companies) => {
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);
-        card.appendChild(websiterul);
+        card.appendChild(websiteurl);
         card.appendChild(membership);
         card.appendChild(add_info);
 
