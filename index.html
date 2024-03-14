@@ -29,7 +29,7 @@
     </header>
     <button id="menu"></button>
     <nav class="navigation">
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="lesson03/chamber-site-plan.html">Site Plan</a>
         <a href="chamber/index.html">Chamber</a>
         <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
@@ -65,7 +65,14 @@
         </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Syracuse, Utah<br>32&deg;F - Cold<br><br>Page Visits: <span class="visits"></span></p>
+            <p>Syracuse, Utah<br>
+                <br>Current Temp: <span id="current-temp"></span><br>
+            </p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p><br>Page Visits: <span class="visits"></span></p>
         </section>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14346.176579492541!2d-112.12336838889532!3d41.11657116056665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1706142771453!5m2!1sen!2sus" width="400" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -78,5 +85,6 @@
     <script src="scripts/responsive-menu.js"></script>
     <script src="scripts/page-visits.js"></script>
     <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
     </body>
 </html>
