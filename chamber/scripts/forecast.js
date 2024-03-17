@@ -60,22 +60,8 @@ function displayWeatherResults(data) {
         document.getElementById(`weather-icon${day+1}`).setAttribute("alt", desc);
         document.getElementById(`desc${day+1}`).textContent = `Conditions: ${desc}`;
         document.getElementById(`wind-speed${day+1}`).innerHTML = forecast.wind.speed;
-        // document.getElementById(`windChill${day+1}`).innerHTML = forecast.main.feels_like;
-            // if (temp >= 50 && speed > 3) {
-            //     return document.getElementById(`windChill${day+1}`).innerHTML = (35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * temp * Math.pow(speed, 0.16))).toFixed(2);
-            // } else {
-            //     return document.getElementById(`windChill${day+1}`).innerHTML = `N/A`;
-            // }
-        
-        day++;
-        // function windChill(temp, speed) {
-        //     if (temp >= 50 && speed > 3) {
-        //         return 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * temp * Math.pow(speed, 0.16));
-        //     } else {
-        //         return document.querySelector('#windChill').innerHTML = `N/A`;
-        //     }
-        // }
 
+        day++;
     });
 
 }

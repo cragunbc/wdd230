@@ -3,7 +3,7 @@ const banner_button = document.querySelector("#banner-close");
 
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const date = new Date();
-const day = "Tuesday";
+const day = days[date.getDay()];
 
 
 if(day === "Monday" || day === "Tuesday" || day === "Wednesday") {
