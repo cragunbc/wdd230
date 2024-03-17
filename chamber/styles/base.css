@@ -30,6 +30,50 @@ main {
     padding: 10px;
 }
 
+/* .weather- {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    margin: 0 auto;
+} */
+
+.banner {
+    align-items: center;
+    position: relative;
+    background-color: lightgray;
+}
+
+#banner-close {
+    position: absolute;
+}
+
+.banner p{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.weather-template {
+    padding: 15px;
+    margin: 0 auto;
+    border: solid black 5px;
+    margin: 10px;
+}
+
+.temp-text {
+    font-weight: bold;
+}
+
+.day-text {
+    font-size: 1.5rem;
+}
+
+.icon {
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+}
+
 header,
 main {
     margin: 0 auto;

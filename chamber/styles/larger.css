@@ -113,6 +113,11 @@ footer {
     padding: 10px;
 }
 
+/* #weather-interior {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
 footer p {
     padding: 10px;
     font-size: 20px;
