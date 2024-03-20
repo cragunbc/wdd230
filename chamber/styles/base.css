@@ -164,6 +164,17 @@ main {
     background-color: lightgray;
 }
 
+.event-card {
+    margin: 2rem;
+    padding: 0;
+    text-align: center;
+}
+
+#stay-tunned {
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+
 footer {
     background-color: navy;
     text-align: center;

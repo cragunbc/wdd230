@@ -59,7 +59,7 @@ function displayWeatherResults(data) {
         document.getElementById(`weather-icon${day+1}`).setAttribute("src", iconsrc);
         document.getElementById(`weather-icon${day+1}`).setAttribute("alt", desc);
         document.getElementById(`desc${day+1}`).textContent = `Conditions: ${desc}`;
-        document.getElementById(`wind-speed${day+1}`).innerHTML = forecast.wind.speed;
+        // document.getElementById(`wind-speed${day+1}`).innerHTML = forecast.wind.speed;
 
         day++;
     });
