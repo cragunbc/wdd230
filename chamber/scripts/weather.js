@@ -10,7 +10,7 @@ async function apiFetch() {
             const data = await response.json();
             let temp = data.main.temp;
             let speed = data.wind.speed;
-            console.log(data);
+            // console.log(data);
             displayResults(data);
             currentwindChill(temp, speed);
         } else {

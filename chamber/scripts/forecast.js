@@ -11,41 +11,24 @@ async function apiFetch() {
             const data = await response.json();
             // let temp = data.main.temp_max;
             // let speed = data.wind.speed;
-            console.log(data);
+            // console.log(data);
             displayWeatherResults(data);
             windChill(temp, speed);
-            console.log(threeDayForecast);
+            // console.log(threeDayForecast);
         } else {
             throw Error (await response.text());
         }
     } catch (error) {
-        console.log(error);
+        // console.log(error);
     }
 }
 
 apiFetch();
 
-// function displayResults(data) {
-//     const threeDayForecast = data.list.filter(x => x.dt_txt.includes("15:00:00"));
-//     console.log(threeDayForecast);
-//     let day = 0;
-//     const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-//     threeDayForecast.forEach(forecast => {
-//         const d = new Date(forecast.dt_txt);
-//         const iconsrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
-//         let desc = forecast.weather[0].description;
-//         document.getElementById(`current-day${day}`).innerHTML = weekdays[d.getDay()];
-//         document.getElementById(`current-temp${day}`).innerHTML = `${forecast.main.temp_max}&deg;F`;
-//         document.getElementById(`weather-icon${day}`).setAttribute("src", iconsrc);
-//         document.getElementById(`weather-icon${day}`).setAttribute("alt", desc);
-//         document.getElementById(`desc${day}`).textContent = `Conditions: ${desc}`;
-//         document.getElementById(`wind-speed${day}`).innerHTML = forecast.wind.speed;
-//     });
-// }
 
 function displayWeatherResults(data) {
     const threeDayForecast = data.list.filter(x => x.dt_txt.includes("15:00:00"));
-    console.log(threeDayForecast);
+    // console.log(threeDayForecast);
     let day = 0;
     const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     threeDayForecast.forEach(forecast => {
@@ -59,7 +42,6 @@ function displayWeatherResults(data) {
         document.getElementById(`weather-icon${day+1}`).setAttribute("src", iconsrc);
         document.getElementById(`weather-icon${day+1}`).setAttribute("alt", desc);
         document.getElementById(`desc${day+1}`).textContent = `Conditions: ${desc}`;
-        // document.getElementById(`wind-speed${day+1}`).innerHTML = forecast.wind.speed;
 
         day++;
     });

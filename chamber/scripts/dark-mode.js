@@ -26,18 +26,3 @@ modeButton.addEventListener("click", () => {
         modeButton.textContent = "🕶️";
     }
 });
-
-// const formMain = document.querySelector("#join");
-
-
-// modeButton.addEventListener("click", () => {
-//     if(modeButton.textContent.includes("🕶️")) {
-//         formMain.style.background = "gray";
-//         formMain.style.color = "black";
-//         modeButton.textContent = "💡";
-//     } else {
-//         formMain.style.background = "white";
-//         main.style.color = "#000";
-//         modeButton.textContent = "🕶️";
-//     }
-// })
