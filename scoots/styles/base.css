@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Merriweather;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+h1 {
+    padding: 20px;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.navigation a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    align-items: center;
+    color: black;
+    background-color: white;
+    padding: 15px;
+}
+
+.navigation a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Home Page CSS */
+
+#home-page {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.banner {
+    align-items: center;
+    position: relative;
+    background-color: lightgray;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.info {
+    padding: 20px;
+    border: solid black 3px;
+    margin-top: 10px;
+    background-color: lightgray;
+    margin: 2rem;
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-container img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* #social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+/* .social-icon {
+    display: block;
+    width: 30%;
+    height: auto;
+} */
+
+#rentals {
+    grid-column: 1/3;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+}
