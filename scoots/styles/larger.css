@@ -1,0 +1,47 @@
+@media screen and (min-width: 950px){
+    * {
+        margin: 0;
+        padding: 0;
+        /* max-width: 1600px; */
+        font-family: Merriweather;
+    }
+
+    /* body {
+        text-align: center;
+    } */
+
+    header {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        background-color: aqua;
+        color: black;
+        padding: 20px;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .hero-img {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #home-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+}

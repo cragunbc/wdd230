@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <meta property="og:title" content="WDD 230 - Scoots Rental Page">
     <meta property="og:type" content="website">
@@ -15,6 +16,7 @@
 <body>
     <header>
         <h1>Scoots Motor Scooter Rentals</h1>
+        <button id="menu"></button>
         <nav class="navigation">
             <a href="index.html">Home</a>
             <a href="rentals.html">Rentals</a>
@@ -27,8 +29,10 @@
         <p>The high temperature for today is: <span id="current-max-temp"></span></p>
     </div>
     <div class="hero-img">
+        <button class="reservation-button">Make a Reservation!</button>
         <picture>
-            <img src="images/jpeg/cozumel2.jpg" alt="Hero Image">
+            <source srcset="images/webp/hero-img-small.webp" media="(max-width: 400px)">
+            <img id="photo" src="images/webp/hero-img-large.webp" alt="Hero Image">
         </picture>
     </div>
     <main id="home-page">
@@ -80,5 +84,6 @@
         <p>Phone: 123-456-7890 | Address: 1234 One Dr. Cozumel, Mexico<br>Brantley Cragun<br>WDD 230 Scoots Rental Assignment</p>
     </footer>
     <script src="scripts/banner.js"></script>
+    <script src="scripts/responsive-menu.js"></script>
 </body>
 </html>
