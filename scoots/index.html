@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <meta property="og:title" content="WDD 230 - Scoots Rental Page">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="images/webp/hero-img-large.webp">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brantley Cragun - Scoots Home Page</title>
@@ -26,7 +26,7 @@
     </header>
     <div class="banner">
         <button id="close-button">❌</button>
-        <p>The high temperature for today is: <span id="current-max-temp"></span></p>
+        <p>The high temperature for today is: <span id="current_max_temp"></span></p>
     </div>
     <div class="hero-img">
         <button class="reservation-button">Make a Reservation!</button>
@@ -78,6 +78,22 @@
         </section>
         <section class="info" id="weather">
             <h2 class="section-heading">Weather Info</h2>
+            <section class="weather">
+                <p>Current Temperature: <span id="current-temp" class="weather-text"></span></p>
+                <p>Current Humidity: <span id="current-humidity" class="weather-text"></span></p>
+                <figure>
+                    <img id="weather-icon" class="icon" src="#" alt="Placeholder">
+                    <figcaption id="desc"></figcaption>
+                </figure>
+            </section>
+            <section class="weather">
+                <p>Tomorrows Temperature: <span id="tomorrow-temp" class="weather-text"></span></p>
+                <p>Tomorrows Humidity: <span id="tomorrow-humidity" class="weather-text"></span></p>
+                <figure>
+                    <img id="tomorrow-weather-icon" class="icon" src="#" alt="Placeholder">
+                    <figcaption id="tomorrow-desc"></figcaption>
+                </figure>
+            </section>
         </section>
     </main>
     <footer>
@@ -85,5 +101,7 @@
     </footer>
     <script src="scripts/banner.js"></script>
     <script src="scripts/responsive-menu.js"></script>
+    <script src="scripts/current-weather.js"></script>
+    <script src="scripts/forecast.js"></script>
 </body>
 </html>
