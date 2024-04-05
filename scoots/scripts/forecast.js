@@ -24,7 +24,7 @@ apiFetch();
 function displayWeatherResults(data) {
     const tomorrowForecast = data.list.filter(x => x.dt_txt.includes("15:00:00"));
     console.log(tomorrowForecast);
-    const iconsrc1 = `https://openweather.org/img/wn/${tomorrowForecast[0].weather[0].icon}.png`;
+    const iconsrc1 = `https://openweathermap.org/img/wn/${tomorrowForecast[0].weather[0].icon}.png`;
     let desc1 = tomorrowForecast[0].weather[0].description;
     tomorrowTemp.innerHTML = `${tomorrowForecast[0].main.temp}&deg;F`;
     tomorrowHumidity.innerHTML = `${tomorrowForecast[0].main.humidity}%`;

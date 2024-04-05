@@ -7,7 +7,7 @@
 }
 
 body {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0 auto;
     background-color: aquamarine;
 }
@@ -190,4 +190,19 @@ footer {
     background-color: aqua;
     color: black;
     padding: 20px;
+}
+
+
+/* Reservation CSS */
+
+
+#agreement-section {
+    border: solid black 5px;
+    background-color: lightgrey;
+    align-items: center;
+    padding: 10px;
+}
+
+#agreement-section li {
+    display: block;
 }
