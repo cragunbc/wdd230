@@ -277,6 +277,54 @@ form fieldset {
 
 /* Contact CSS */
 
-#contact-us1 {
-    margin: 0;
+.contact-page {
+    margin: 20px;
 }
+
+#locations {
+    margin: 20px;
+}
+
+#location1 {
+    grid-column: 1/2;
+    width: 100%;
+    height: auto;
+}
+
+#location2 {
+    grid-column: 1/2;
+    width: 100%;
+    height: auto;
+}
+
+#locations p {
+    font-size: 1.5rem;
+}
+
+form label.above {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form label.above input {
+    display: block;
+    border-radius: 4px;
+    padding: .75rem;
+    font-size: 1rem;
+}
+
+.contactBtn {
+    padding: .75rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+#phone-number {
+    font-size: 1rem;
+}
+
+/* #contact-submit fieldset {
+    margin: 2rem 0;
+
+} */
