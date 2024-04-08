@@ -97,6 +97,7 @@ header {
     align-items: center;
     background-color: lightgray;
     padding: 10px;
+    top: 1rem;
 }
 
 .hero-img {
@@ -119,6 +120,7 @@ header {
 }
 
 .section-heading {
+    /* display: inline; */
     text-align: center;
     margin-bottom: 1.5rem;
     text-decoration: underline;
@@ -183,6 +185,10 @@ header {
     text-align: center;
 }
 
+#weather-info {
+    display: flex;
+}
+
 
 footer {
     align-items: center;
@@ -195,14 +201,82 @@ footer {
 
 /* Reservation CSS */
 
+#personalInfo, #rentalInfo {
+    margin: 25px;
+}
 
 #agreement-section {
     border: solid black 5px;
     background-color: lightgrey;
-    align-items: center;
-    padding: 10px;
+    text-align: center;
+    padding: 30px;
+    margin: 25px;
+}
+
+#agreement-section ul {
+    display: block;
+    margin-bottom: 150px;
 }
 
 #agreement-section li {
+    padding-bottom: 10px;
+}
+
+#agreement {
+    margin-bottom: 20px;
+}
+
+#additional-info {
+    font-size: 2rem;
+    background-color: yellow;
+    padding: 10px;
+}
+
+form label.top, form label.middle {
     display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+form label.top input, form label.middle input {
+    display: block;
+    border-radius: 4px;
+    padding: .75rem;
+    font-size: 1rem;
+}
+
+.tab {
+    font-size: 1rem;
+}
+
+#selections {
+    font-size: 1rem;
+}
+
+/* form textarea {
+    display: block;
+} */
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%; 
+}
+
+.submitBtn {
+    padding: .75rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+#thanks-text {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Contact CSS */
+
+#contact-us1 {
+    margin: 0;
 }

@@ -44,4 +44,39 @@
         grid-template-columns: 1fr 1fr;
         padding: 20px;
     }
+
+    #weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #current {
+        grid-column: 1/2;
+    }
+
+    #tomorrow {
+        grid-column: 2/3;
+    }
+
+    #reservation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #agreement-section {
+        grid-column: 2/3;
+        margin: 20px;
+    }
+
+    #personalInfo {
+        grid-column: 1/2;
+    }
+
+    #rentalInfo {
+        grid-column: 2/3;
+    }
+
+    #additional-info {
+        margin-top: 170px;
+    }
 }

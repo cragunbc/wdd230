@@ -25,36 +25,55 @@
         </nav>
     </header>
     <main id="reservation">
-        <section id="agreement-section">
-            <h2 id="agreement">Rental Services and Agreements</h2>
-            <ul>
-                <li>A $50 security deposit is required to confirm reservations</li>
-                <li>A valid drivers license is required in hand at the time of rental</li>
-                <li>No one under the age of 12 years of age are allowed to ride on the scooters</li>
-                <li>Fuel charge is not included</li>
-                <li>Unlimited mileage</li>
-                <li>Liability insurance is included</li>
-                <li>Damage insurance is available for purchase</li>
-                <li>Free delivery to Cozumel hotels or Airbsbs for 2+ day rentals</li>
-                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo</li>
-                <li>Rentals may be returned to either physical location</li>
-            </ul>
-        </section>
-        <!-- <form method="get" action="">
-            <fieldset>
-                <legend>
-
-                </legend>
+        <form method="get" action="thankyou.html">
+            <fieldset id="personalInfo">
+                <legend>Personal Information</legend>
+                    <label class="top">First Name <input id="firstName" type="text" name="fname" required></label>
+                    <label class="top">Last Name <input id="lastName" type="text" name="lname" required></label>
+                    <label class="top">Email Address <input id="email" type="email" name="contact" required></label>
+                    <label class="top">Phone Number <input id="phone" type="tel" name="phoneNumber" required></label>
+                    <label class="top">Home State/Country <input id="home" type="text" name="location" required></label>
+                    <label class="top">Cruise Line - If Applicable <input id="cruise" type="text" name="liner"></label>
+                    <label class="top">Special Accommodations/Comments<input id="description" name="comments"></label>
             </fieldset>
-        </form> -->
+            <fieldset id="rentalInfo">
+                <legend>Rental Information</legend>
+                    <label class="middle">Start Rental Date <input id="date" type="date" name="time" required></label>
+                    <label class="middle">Duration of Rental in days <input id="period" type="text" name="duration" required></label>
+                    <label class="middle">Type of Rental</label>
+                    <select class="middle" id="selections">
+                        <!-- <option value="value0">Please Select an Option</option> -->
+                        <option value="type1">Honda Metro Scooter</option>
+                        <option value="type2">Honda Dio Scooter</option>
+                        <option value="type3">Honda PCX150 Scooter</option>
+                        <option value="type4">Honda Pioneer ATV</option>
+                        <option value="type5">Jeep Wrangler 4 door</option>
+                        <option value="type6">Jeep Wrangler 2 door</option>
+                    </select>
+            </fieldset>
+            <input type="submit" value="Schedule Reservation" class="submitBtn">
+        </form>
+        <div id="agreement-section">
+            <h2 id="agreement">Rental Services and Agreements</h2>
+            <ol>
+                <li class="tab">A $50 security deposit is required to confirm reservations</li>
+                <li class="tab">A valid drivers license is required in hand at the time of rental</li>
+                <li class="tab">No one under the age of 12 years of age are allowed to ride on the scooters</li>
+                <li class="tab">Fuel charge is not included</li>
+                <li class="tab">Unlimited mileage</li>
+                <li class="tab">Liability insurance is included</li>
+                <li class="tab">Damage insurance is available for purchase</li>
+                <li class="tab">Free delivery to Cozumel hotels or Airbsbs for 2+ day rentals</li>
+                <li class="tab">Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo</li>
+                <li class="tab">Rentals may be returned to either physical location</li>
+            </ol>
+            <p id="additional-info">If you have any questions on any of these agreement terms then please contact us for more info! We look forward to talking to you!</p>
+        </div>
 
     </main>
     <footer>
         <p>Phone: 123-456-7890 | Address: 1234 One Dr. Cozumel, Mexico<br>Brantley Cragun<br>WDD 230 Scoots Rental Assignment</p>
     </footer>
-    <script src="scripts/banner.js"></script>
     <script src="scripts/responsive-menu.js"></script>
-    <script src="scripts/current-weather.js"></script>
-    <script src="scripts/forecast.js"></script>
 </body>
 </html>
