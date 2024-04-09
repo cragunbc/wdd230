@@ -1,7 +1,58 @@
 {
     "rentals": [
         {
-            
+            "name": "Honda Metro Scooter",
+            "max": "1",
+            "price-halfday-res": "$20/3hrs",
+            "price-fullday-res": "$30/day",
+            "price-halfday-walk": "$25/3hrs",
+            "price-fullday-walk": "$35/day",
+            "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/honda-metro.webp"
+        },
+        {
+            "name": "Honda Dio Scooter",
+            "max": "2",
+            "price-halfday-res": "$30/3hrs",
+            "price-fullday-res": "$40/day",
+            "price-halfday-walk": "$35/3hrs",
+            "price-fullday-walk": "$45/day",
+            "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/honda-dio.webp"
+        },
+        {
+            "name": "Honda PCX150 Scooter",
+            "max": "2",
+            "price-halfday-res": "$40/3hrs",
+            "price-fullday-res": "$50/day",
+            "price-halfday-walk": "$45/3hrs",
+            "price-fullday-walk": "$55/day",
+            "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/honda-pcx150.webp"
+        },
+        {
+            "name": "Honda Pioneer ATV",
+            "max": "4",
+            "price-halfday-res": "$50/3hrs",
+            "price-fullday-res": "$70/day",
+            "price-halfday-walk": "$60/3hrs",
+            "price-fullday-walk": "$80/day",
+            "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/honda-pioneer.webp"
+        },
+        {
+            "name": "Jeep Wrangler - 4 door with a/c",
+            "max": "5",
+            "price-halfday-res": "$70/3hrs",
+            "price-fullday-res": "$1000/day",
+            "price-halfday-walk": "$855/3hrs",
+            "price-fullday-walk": "$125/day",
+            "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/jeep-wrangler-4.webp"
+        },
+        {
+            "name": "Jeep Wrangler - 2 door",
+            "max": "4",
+            "price-halfday-res": "$60/3hrs",
+            "price-fullday-res": "$85/day",
+            "price-halfday-walk": "$70/3hrs",
+            "price-fullday-walk": "$90/day",
+            "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/jeep-wrangler-2.webp"
         }
     ]
 }
