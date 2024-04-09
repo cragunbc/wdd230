@@ -13,7 +13,12 @@ getRentalData();
 const displayRentals = (rentals) => {
     rentals.forEach(rental => {
         const row = document.createElement("tr");
-        row.innerHTML = `${rental.name}`;
+        row.innerHTML = `<td>${rental.name}</td>`;
+        row.innerHTML = `<td>${rental.max}</td>`;
+        row.innerHTML = `<td>${rental.price_halfday_res}</td>`;
+        row.innerHTML = `<td>${rental.price_fullday_res}</td>`;
+        row.innerHTML = `<td>${rental.price_halfday_walk}</td>`;
+        row.innerHTML = `<td>${rental.price_fullday_walk}</td>`;
         table.appendChild(row);      
     });
 }
