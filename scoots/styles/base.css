@@ -328,3 +328,20 @@ form label.above input {
     margin: 2rem 0;
 
 } */
+
+
+/* Rental CSS */
+
+table {
+    margin: 10px auto;
+}
+
+th {
+    background-color: lightblue;
+    padding: 5px 10px;
+}
+
+tr {
+    margin: 20px;
+    text-align: center;
+}

@@ -1,7 +1,7 @@
 {
     "rentals": [
         {
-            "name": "Honda Metro Scooter",
+            "name": "Honda Metro",
             "max": "1",
             "price_halfday_res": "$20/3hrs",
             "price_fullday_res": "$30/day",
@@ -10,7 +10,7 @@
             "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/honda-metro.webp"
         },
         {
-            "name": "Honda Dio Scooter",
+            "name": "Honda Dio",
             "max": "2",
             "price_halfday_res": "$30/3hrs",
             "price_fullday_res": "$40/day",
@@ -19,7 +19,7 @@
             "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/honda-dio.webp"
         },
         {
-            "name": "Honda PCX150 Scooter",
+            "name": "Honda PCX150",
             "max": "2",
             "price_halfday_res": "$40/3hrs",
             "price_fullday_res": "$50/day",
@@ -28,7 +28,7 @@
             "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/honda-pcx150.webp"
         },
         {
-            "name": "Honda Pioneer ATV",
+            "name": "Honda ATV",
             "max": "4",
             "price_halfday_res": "$50/3hrs",
             "price_fullday_res": "$70/day",
@@ -37,10 +37,10 @@
             "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/honda-pioneer.webp"
         },
         {
-            "name": "Jeep Wrangler - 4 door with a/c",
+            "name": "Jeep Wrangler - 4 door",
             "max": "5",
             "price_halfday_res": "$70/3hrs",
-            "price_fullday_res": "$1000/day",
+            "price_fullday_res": "$100/day",
             "price_halfday_walk": "$855/3hrs",
             "price_fullday_walk": "$125/day",
             "image": "https://cragunbc.github.io/wdd230/scoots/images/webp/jeep-wrangler-4.webp"
