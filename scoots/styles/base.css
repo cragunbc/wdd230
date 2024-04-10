@@ -333,9 +333,9 @@ form label.above input {
 /* Rental CSS */
 
 table {
-    margin: 10px auto;
+    margin: 15px auto;
     border: 5px solid black;
-    padding: 20px;
+    padding: 10px;
 }
 
 th {
